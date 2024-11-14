@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/Rectangle\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("img/Combined\ Shape\ 2.png");
+}
+
+.stars {
+    position: relative;
+    order: 2;
+}
+
+.bottom {
+    width: 1530px;
+    padding-top: 112px;
+    order: 1;
+}
+
+h1 {
+    padding-top: 100px;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 29.11px;
+    letter-spacing: 7.5px;
+    align-items: center;
+}
+
+.Box {
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 340px;
+}
+
+.time {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.text {
+    width: 660px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.text p {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    align-items: center;
+}
+
+.card {
+    width: 148px;
+    height: 150px;  
+    background-color: #2d2d44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 88px;
+    font-weight: 800;
+    opacity: 1;
+    color: rgba(251, 94, 132, 1);
+    box-shadow: 0px 10px rgba(25, 26, 35, 1);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 660px;
+    gap: 30px;
+}
+
+.bottom1 {
+    display: none;
+}
+
+@media (max-width: 1440px) and (min-width: 700) {
+    .bottom {
+        display: none;
+    }
+
+    .bottom1 {
+        display: block;
+        width: 100%;
+        padding-top: 112px;
+        order: 1;
+    }
+}
